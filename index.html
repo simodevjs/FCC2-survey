@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>This is a survey form</title>
+</head>
+<body>
+    <h1 id="title">.معتقداتك، قناعاتك، حياتك </h1>
+    <p id="description">شارك بكل واقعية و كن شجاعا و صريحا، حاول أن تتعرف على نفسك يا صديقي ما بك ؟ </p>
+    <form action="" id="survey-form">
+    <label for="name" id="name-label">name:</label>
+    <input type="text" placeholder="enter your name" id="name" required><br><br>
+    <label for="email" id="email-label">email:</label>
+    <input type="email" placeholder="enter your email" id="email" required><br><br>
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" min="10" max="60" placeholder="enter your Age" id="number"><br><br>
+    <label for="dropdown" id="dropdown-label">Genre:</label>
+    <select name="genre" id="dropdown">
+    <option name="male" value="Male">M</option>
+    <option name="female" value="Female">F</option>
+    </select><br><br>
+    <p>Do you beleive that god:</p>
+    <label for="ex" id="label-ex">exist</label>
+    <input type="radio" id="ex" name="god" value="exist">
+    <label for="nex" id="label-ex">not exist</label>
+    <input type="radio" id="nex" name="god" value="notexist">
+    <br><br>
+    <p>some pratics:</p>
+    <label for="pra" id="label-pra">do you pray:</label>
+    <input type="checkbox" id="pra" name="pratics" value="pra">
+    <label for="hypo" id="label-hypo">hypocrite</label>
+    <input type="checkbox" id="hypo" name="pratics" value="hypo"><br><br>
+    <textarea placeholder="experience with god justice"></textarea>
+    <br>
+    <br>
+    <button type="submit" id="submit">Send to allah</button>
+    </form>
+</body>
+</html>
